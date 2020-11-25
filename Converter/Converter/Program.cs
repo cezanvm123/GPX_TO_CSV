@@ -103,7 +103,7 @@ namespace Converter
                 {
                     valid = false;
                 }
-                if(point.elevation == 0) // not false persee but needs checking for now to make sure the elevation is actually 0
+                if(point.elevation == 0) // not necessarily false but needs checking to make sure the elevation is actually 0
                 {
                     valid = false;
                 }
